@@ -1,3 +1,5 @@
+@import Foundation;
+@import UIKit;
 typedef void (^OKResultBlock)(id data);
 typedef void (^OKErrorBlock)(NSError *error);
 #define OKColor [UIColor colorWithRed:0xED/255.f green:0x81/255.f blue:0x2B/255.f alpha:1.f]
